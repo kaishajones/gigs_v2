@@ -1,0 +1,47 @@
+
+
+.custom-class {
+  min-height: 80vh;
+}
+
+.article-author {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.round-image {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.comment-round-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.title-author {
+  align-self: center;
+  justify-content: space-evenly;
+  margin-left: 2%;
+  width: 300px;
+}
+
+.auth-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-card-link {
+  cursor: pointer;
+}
+
+.card-top-styles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-padding {
+  padding: 0.5em 0;
+}
