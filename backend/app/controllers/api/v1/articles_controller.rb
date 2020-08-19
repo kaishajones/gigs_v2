@@ -19,7 +19,7 @@ module Api::V1
     # This display an article by passing the id of that article
 
     def show
-      @article = Article.where(id: params[:id])
+      @article = Article.where(id: params[:id]).first
       render json: @article, include: :user, status: :ok
     end
 
